@@ -1,0 +1,58 @@
+.home-layout{
+  background-color: rgba(214, 46, 51, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home{
+  height: 660px;
+  background-image: url("../imgs/events-heavenly-header.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.home-content h2{
+  font-size: 60px;
+}
+
+.openNav{
+  left: 260px;
+  top: 40%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.sidenav{
+  background-color: black;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding-top: 60px;
+  width: 250px;
+}
+.sidenav li{
+  padding: 20px 8px 20px 32px;
+  cursor: pointer;
+
+}
+.sidenav .closebtn{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  text-decoration: none;
+}
+.sidenav a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.sidenav li:hover a, .sidenav .closebtn:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
