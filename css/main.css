@@ -1,8 +1,16 @@
+
+
 .home-layout{
   background-color: rgba(214, 46, 51, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #home{
@@ -22,6 +30,8 @@
   top: 60%;
   cursor: pointer;
   color: #fff;
+  -webkit-transition: color 0.5s;
+  -o-transition: color 0.5s;
   transition: color 0.5s;
 }
 
@@ -50,6 +60,8 @@
   color: white;
   text-decoration: none;
   font-size: 25px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -120,15 +132,23 @@
 }
 
 .contact .social-list a{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-decoration: none;
   color: rgb(119, 119, 119);
   margin-right: 10px;
   border: 1px solid rgb(119, 119, 119);
   width: 40px;
   height: 40px;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
   transition: all 0.3s;
 }
 
