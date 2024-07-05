@@ -18,17 +18,17 @@
 }
 
 .openNav{
-  left: 260px;
-  top: 40%;
+  left: 20px;
+  top: 60%;
   cursor: pointer;
-  transition: 0.3s;
+  color: #fff;
+  transition: color 0.5s;
 }
-
 
 .sidenav{
   background-color: black;
   position: fixed;
-  left: 0;
+  left: -250px;
   top: 0;
   bottom: 0;
   padding-top: 60px;
@@ -55,4 +55,93 @@
 
 .sidenav li:hover a, .sidenav .closebtn:hover {
   color: rgba(214, 46, 51, 0.4);
+}
+
+.slider{
+  width: 50%;
+}
+
+.slider .toggle{
+  background-color: rgba(214, 46, 51, 0.6);
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.slider .inner{
+  background-color: #ccc;
+  padding: 10px;
+  display: none;
+}
+
+.count{
+  background-image: url("../imgs/invitation-2508607__340.jpg");
+  background-repeat: no-repeat;
+  background-position:  center center;
+  background-size: cover;
+}
+.count .count-overlay{
+  background-color: rgba(214, 46, 51, 0.6);
+  height: 100%;
+}
+
+.count .item{
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 50px;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  height: 100%;
+}
+
+.contact .section-header h2{
+  color: rgb(68, 68, 68);
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.contact p{
+  color: rgb(119, 119, 119);
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.contact .info p{
+  font-weight: 400;
+}
+
+.contact .left h3{
+  font-size: 18px;
+  font-weight: 900;
+  color: rgb(68, 68, 68);
+
+}
+
+.contact .social-list a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgb(119, 119, 119);
+  margin-right: 10px;
+  border: 1px solid rgb(119, 119, 119);
+  width: 40px;
+  height: 40px;
+  transition: all 0.3s;
+}
+
+.contact .social-list a:hover{
+  color: white;
+  background-color: red;
+  border-color: red;
+}
+
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .slider{
+    width: 90%;
+  }
 }
